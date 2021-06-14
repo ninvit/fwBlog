@@ -1,9 +1,9 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {RegisterPayload} from '../auth/register-payload';
+import {RegisterPayload} from './auth/register-payload';
 import {Observable} from 'rxjs';
-import {LoginPayload} from '../auth/login-payload';
-import {JwtAutResponse} from '../auth/jwt-aut-response';
+import {LoginPayload} from './auth/login-payload';
+import {JwtAutResponse} from './auth/jwt-aut-response';
 import {map} from 'rxjs/operators';
 import {LocalStorageService} from 'ngx-webstorage';
 
